@@ -1,0 +1,154 @@
+/* Large Device Media Queries Start */
+@media (min-width: 992px) and (max-width: 1199.99px){
+    
+    /* Banner Section CSS Start */
+    #banner .banner_item{
+        height: 650px;
+    }
+    #banner .banner_item .banner_content h1 {
+        font-size: 60px;
+        letter-spacing: 22px;
+    }
+    /* Banner Section CSS End */
+
+    /* Services Section CSS Start */
+    #services{
+        background-position: center;
+    }
+    /* Services Section CSS End */
+
+    /* My Work Section CSS Start */
+    #myWork .work_item .overlay {
+        inset: 10px;
+        padding: 12px;
+    }
+    /* My Work Section CSS End */
+
+}
+/* //Large Device Media Queries End */
+
+/* Medium Device Media Queries Start */
+@media (min-width: 768px) and (max-width: 991.99px){
+    /* Banner Section CSS Start */
+    #banner .banner_item{
+        height: 600px;
+    }
+    #banner .banner_item .banner_content h4 {
+        font-size: 26px;
+    }
+    #banner .banner_item .banner_content h1 {
+        font-size: 51px;
+        letter-spacing: 15px;
+    }
+    /* Banner Section CSS End */
+
+    /* About Section CSS Start */
+    #about .about_item_wrapper div[class^='col']:nth-child(2n){
+        border-right-color: transparent;
+    }
+    /* About Section CSS End */
+
+    /* Services Section CSS Start */
+    #services{
+        background-image: initial;
+    }
+    #services .section_info{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #services .services_item_wrapper .section-item{
+        text-align: center;
+    }
+    #services .services_item_wrapper .section-item p{
+        margin: 0 auto;
+    }
+    #services .services_item_wrapper div[class^='col']:nth-child(2n - 1){
+        border-right: 1px solid #d9dbdb;
+    }
+    /* Services Section CSS End */
+
+}
+/* //Medium Device Media Queries End */
+
+/* Small Device Media Queries Start */
+@media (min-width: 576px) and (max-width: 767.99px){
+    /* Banner Section CSS Start */
+    #banner .banner_item{
+        height: 500px;
+    }
+    #banner .banner_item .banner_content h4 {
+        font-size: 20px;
+    }
+    #banner .banner_item .banner_content h1 {
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+    #banner .banner_item .banner_content img {
+        margin: 40px auto;
+    }
+    /* Banner Section CSS End */
+
+    /* Services Section CSS Start */
+    #services{
+        background-image: initial;
+    }
+    #services .section_info{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #services .services_item_wrapper .section-item{
+        text-align: center;
+    }
+    #services .services_item_wrapper .section-item p{
+        margin: 0 auto;
+    }
+    #services .services_item_wrapper div[class^='col']:nth-child(2n - 1){
+        border-right: 1px solid #d9dbdb;
+    }
+    /* Services Section CSS End */
+}
+/* //Small Device Media Queries End */
+
+/* Extra Small Device Media Queries Start */
+@media (max-width: 575.99px){
+    /* Banner Section CSS Start */
+    #banner .banner_item{
+        height: 400px;
+    }
+    #banner .banner_item .banner_content h4 {
+        font-size: 14px;
+    }
+    #banner .banner_item .banner_content h1 {
+        font-size: 25px;
+        letter-spacing: 6px;
+    }
+    #banner .banner_item .banner_content p {
+        font-size: 12px;
+    }
+    #banner .banner_item .banner_content img {
+        margin: 30px auto;
+    }
+    #banner .banner_item .banner_content a {
+        padding: 5px 20px;
+    }
+    /* Banner Section CSS End */
+    /* Services Section CSS Start */
+    #services{
+        background-image: initial;
+    }
+    #services .section_info{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #services .services_item_wrapper .section-item{
+        text-align: center;
+    }
+    #services .services_item_wrapper .section-item p{
+        margin: 0 auto;
+    }
+    #services .services_item_wrapper div[class^='col']:nth-child(2n - 1){
+        border-right: 1px solid #d9dbdb;
+    }
+    /* Services Section CSS End */
+}
+/* //Extra Small Device Media Queries End */
